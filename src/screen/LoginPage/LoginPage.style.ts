@@ -24,9 +24,6 @@ const styles = StyleSheet.create({
     input: {
         alignItems: 'center',
         marginTop: 20
-    },
-    button: {
-        alignItems: 'center'
     }
 })
 
