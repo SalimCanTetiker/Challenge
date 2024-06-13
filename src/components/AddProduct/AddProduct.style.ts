@@ -4,6 +4,10 @@ const { height } = Dimensions.get("window")
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+        backgroundColor: '#dad1bf',
+    },
+    viewContainer: {
         flexDirection: "row",
         justifyContent: "space-between",
         backgroundColor: "#d9d9d9",
@@ -19,6 +23,21 @@ const styles = StyleSheet.create({
     plus: {
         fontSize: 36
     },
+    input: {
+        borderWidth: 3,
+        borderRadius: 10,
+        borderColor: '#e0bcb8', 
+        padding: 10,
+        marginTop: 40
+    },
+    button: {
+        alignItems: "center",
+        marginTop: 40
+    },
+    modal: {
+        flex: 1,
+        backgroundColor: '#dad1bf',
+    }
 })
 
 export default styles
