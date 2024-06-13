@@ -1,30 +1,20 @@
-import { View, Text, Button } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
-import { supabase } from '../../supabaseClient'
-import { useNavigation } from '@react-navigation/native'
+
+import styles from './MainPage.style'
+
+import AddComponent from '../../components/AddComponent/AddComponent'
+import Search from '../../components/Search/Search'
 
 const MainPage = () => {
-
-  const navigation = useNavigation()
-
-  const signOut = async () => {
-    const { error } = await supabase.auth.signOut();
-    if (error) {
-      console.log('error')
-    } else {
-      console.log('succes')
-    }
-    try {
-      navigation.navigate('Login')
-    } catch (e) {
-      console.log(e)
-    }
-  }
-
   return (
-    <View>
-      <Text>MainPage</Text>
-      <Button title='Çık' onPress={signOut} />
+    <View style={styles.container}>
+      <View style={styles.add}>
+        <AddComponent />
+      </View>
+      <View style={styles.search}>
+        <Search/>
+      </View>
     </View>
   )
 }
