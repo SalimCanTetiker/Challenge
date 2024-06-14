@@ -1,3 +1,25 @@
+# Challenge
+
+## tools
+
+* React Navigation
+* Zustand
+* Supabase
+
+### Android Screenshot
+
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/dd2f2d4f-59a2-40c0-ac09-c087c7798dfd" width='250' height='500' />
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/fd00e5a8-d05b-4955-b1eb-89ecaa60a891" width='250' height='500' />
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/6caf3477-dc83-479a-8d1e-c4f8c1686267" width='250' height='500' />
+
+### Ios screennshot
+
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/46f2883e-636c-4a6a-9a5b-b045430166a0" width='250' height='500' />
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/0e2fa2c7-c6d0-479d-b33f-dd8124d343fb" width='250' height='500' />
+<img src="https://github.com/SalimCanTetiker/Challenge/assets/99422185/78134924-2702-4c23-bf21-0a194df96189" width='250' height='500' />
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
